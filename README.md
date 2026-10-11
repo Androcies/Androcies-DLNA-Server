@@ -1,5 +1,5 @@
 # Androcies-DLNA-Server
-A lightweight Windows DLNA/UPnP media server supporting video, audio, playlists, and NVIDIA GPU-accelerated live desktop streaming. Developed by Androcies with OpenAI Codex.
+A lightweight Windows DLNA/UPnP media server supporting video, audio, playlists, and LIVE PC DESKTOP STREAMING! Developed by Androcies with OpenAI Codex.
 > **Recommended player: [VLC media player](https://www.videolan.org/vlc/).** VLC is a good choice for browsing and playing media from the server on Windows PCs, Android/Google TV and Amazon Fire TV devices. Availability and menu names vary by device.
 
 ## Features
@@ -86,7 +86,6 @@ Start or restart the server, and note the **LAN IP address** displayed in its co
 http://<SERVER-IP>:8200/live/desktop
 http://<SERVER-IP>:8200/live/high-quality
 http://<SERVER-IP>:8200/live/low-latency
-http://<SERVER-IP>:8200/live/gaming
 ```
 
 For example, if the server displays `192.168.1.50`, use `http://192.168.1.50:8200/live/desktop`. The IP address may change when your router assigns a new one. The port shown above is the default; use the configured port if you have changed it.
